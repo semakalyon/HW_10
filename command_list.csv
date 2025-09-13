@@ -1,0 +1,27 @@
+    1  git clone https://github.com/semakalyon/HW_10.git
+    2  git clone git@github.com:semakalyon/HW_10.git
+    3  cd HW_10
+    4  touch text_ignore2.txt
+    5  git add .
+    6  git commit -"retry"
+    7  git commit -m "yeniden versiyonlama"
+    8  git remote add origin https://github.com/semakalyon/HW_10.git
+    9  git push -u origin main
+   10  touch main_test.txt
+   11  git add .
+   12  git commit -m "commit oluşturma çabası"
+   13  git branch sema
+   14  git branch develop
+   15  git checkout develop
+   16  touch develop_test.txt
+   17  git add .
+   18  git commit -m "adım adım branch yaratıyoruz"
+   19  git add .
+   20  git commit -m "versiyon2"
+   21  git branch main
+   22  git checkout main
+   23  git add .
+   24  git commit -m "bitecek bitmekte olan"
+   25  git merge develop
+   26  git log
+   27  history > command_list.csv
